@@ -22,8 +22,6 @@ local_css("./style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-# img_contact_form = Image.open("images/yt_contact_form.png")
-# img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- Load assets ----
 lottie_coding = "https://assets6.lottiefiles.com/packages/lf20_fcfjwiyb.json"
