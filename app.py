@@ -3,6 +3,9 @@ import streamlit as st
 # find the path to the icon
 st.set_page_config(page_title="My App", page_icon=":computer:", layout="wide", initial_sidebar_state="expanded")
 
+# ---- Load assets ----
+lottie_coding = "https://assets6.lottiefiles.com/packages/lf20_fcfjwiyb.json"
+
 # ---- Header ----
 with st.container():
     st.subheader("Hi, I'm Manul :wave:")
@@ -18,4 +21,5 @@ with st.container():
         st.write("SLTC Research University")
         st.write("BSc in Information and Communication Engineering")
         st.write("2021 - Present")
+    with right_column:
 
