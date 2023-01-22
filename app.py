@@ -11,6 +11,19 @@ def load_lottieurl(url):
         return None
     return r.json()
 
+# Use local CSS
+def local_css(file_name):
+    with open(file_name) as f:
+        st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
+
+
+local_css("style/style.css")
+
+# ---- LOAD ASSETS ----
+lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
+img_contact_form = Image.open("images/yt_contact_form.png")
+img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+
 # ---- Load assets ----
 lottie_coding = "https://assets6.lottiefiles.com/packages/lf20_fcfjwiyb.json"
 
@@ -30,4 +43,4 @@ with st.container():
         st.write("BSc in Information and Communication Engineering")
         st.write("2021 - Present")
     with right_column:
-
+        st_lottie(lottie_coding, height=300, key="Coding")
