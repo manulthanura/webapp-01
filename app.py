@@ -23,8 +23,6 @@ local_css("./style.css")
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 
-# ---- Load assets ----
-lottie_coding = "https://assets6.lottiefiles.com/packages/lf20_fcfjwiyb.json"
 
 # ---- Header ----
 with st.container():
