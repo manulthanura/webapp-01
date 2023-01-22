@@ -1,7 +1,15 @@
+import requests
 import streamlit as st
+from streamlit_lottie import st_lottie
 
 # find the path to the icon
 st.set_page_config(page_title="My App", page_icon=":computer:", layout="wide", initial_sidebar_state="expanded")
+
+def load_lottieurl(url):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
 
 # ---- Load assets ----
 lottie_coding = "https://assets6.lottiefiles.com/packages/lf20_fcfjwiyb.json"
