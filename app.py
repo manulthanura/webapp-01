@@ -1,6 +1,7 @@
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
+from PIL import Image
 
 # find the path to the icon
 st.set_page_config(page_title="My App", page_icon=":computer:", layout="wide", initial_sidebar_state="expanded")
