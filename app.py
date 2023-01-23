@@ -24,7 +24,7 @@ local_css("./style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 
 
-# ---- Header ----
+# ---- HEADER ----
 with st.container():
     st.subheader("Hi, I'm Manul :wave:")
     st.title("Undergraduate Student and Developer")
@@ -34,11 +34,13 @@ with st.container():
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
+    # LEFT COLUMN
     with left_column:
         st.header("Education")
         st.write("SLTC Research University")
         st.write("BSc in Information and Communication Engineering")
         st.write("2021 - Present")
+    # RIGHT COLUMN
     with right_column:
         st_lottie(lottie_coding, height=300, key="Coding")
 
