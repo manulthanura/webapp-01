@@ -29,6 +29,6 @@ watchdog==2.1.8
 * VSCode
   * Open the repo directory in VSCode
   * Open `app.py`
-  * Start debugging with F5
-  * Stop debugging with Shift-F5
+  * Start debugging with `F5`
+  * Stop debugging with `Shift` + `F5`
 
