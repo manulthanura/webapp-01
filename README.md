@@ -24,7 +24,7 @@ watchdog==2.1.8
     poetry run streamlit run app.py
 
     # quit
-    ctrl-c
+    `ctrl` + `c`
     ```
 * VSCode
   * Open the repo directory in VSCode
