@@ -1,0 +1,4 @@
+streamlit
+requests
+st_lottie
+Image
