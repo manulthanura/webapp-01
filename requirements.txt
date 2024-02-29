@@ -1,4 +1,6 @@
 streamlit
+streamlit_lottie
 requests
-st_lottie
-Image
+Pillow
+protobuf
+watchdog
